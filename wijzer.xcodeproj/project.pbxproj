@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0FE93715640CF90005606A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0FE93615640CF90005606A /* UIKit.framework */; };
+		CD0FE93915640CF90005606A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0FE93815640CF90005606A /* Foundation.framework */; };
+		CD0FE93B15640CF90005606A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0FE93A15640CF90005606A /* CoreGraphics.framework */; };
+		CD0FE94115640CF90005606A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD0FE93F15640CF90005606A /* InfoPlist.strings */; };
+		CD0FE94315640CF90005606A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0FE94215640CF90005606A /* main.m */; };
+		CD0FE94715640CF90005606A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0FE94615640CF90005606A /* AppDelegate.m */; };
+		CD0FE94A15640CF90005606A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0FE94915640CF90005606A /* RootViewController.m */; };
+		CD0FE94D15640CF90005606A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0FE94C15640CF90005606A /* DataViewController.m */; };
+		CD0FE95015640CF90005606A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0FE94F15640CF90005606A /* ModelController.m */; };
+		CD0FE95315640CF90005606A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0FE95115640CF90005606A /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0FE93215640CF90005606A /* wijzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wijzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0FE93615640CF90005606A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD0FE93815640CF90005606A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD0FE93A15640CF90005606A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD0FE93E15640CF90005606A /* wijzer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wijzer-Info.plist"; sourceTree = "<group>"; };
+		CD0FE94015640CF90005606A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD0FE94215640CF90005606A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0FE94415640CF90005606A /* wijzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wijzer-Prefix.pch"; sourceTree = "<group>"; };
+		CD0FE94515640CF90005606A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0FE94615640CF90005606A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0FE94815640CF90005606A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CD0FE94915640CF90005606A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CD0FE94B15640CF90005606A /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		CD0FE94C15640CF90005606A /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		CD0FE94E15640CF90005606A /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		CD0FE94F15640CF90005606A /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		CD0FE95215640CF90005606A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0FE92F15640CF90005606A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0FE93715640CF90005606A /* UIKit.framework in Frameworks */,
+				CD0FE93915640CF90005606A /* Foundation.framework in Frameworks */,
+				CD0FE93B15640CF90005606A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0FE92715640CF90005606A = {
+			isa = PBXGroup;
+			children = (
+				CD0FE93C15640CF90005606A /* wijzer */,
+				CD0FE93515640CF90005606A /* Frameworks */,
+				CD0FE93315640CF90005606A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0FE93315640CF90005606A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FE93215640CF90005606A /* wijzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0FE93515640CF90005606A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FE93615640CF90005606A /* UIKit.framework */,
+				CD0FE93815640CF90005606A /* Foundation.framework */,
+				CD0FE93A15640CF90005606A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0FE93C15640CF90005606A /* wijzer */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FE94515640CF90005606A /* AppDelegate.h */,
+				CD0FE94615640CF90005606A /* AppDelegate.m */,
+				CD0FE94815640CF90005606A /* RootViewController.h */,
+				CD0FE94915640CF90005606A /* RootViewController.m */,
+				CD0FE94B15640CF90005606A /* DataViewController.h */,
+				CD0FE94C15640CF90005606A /* DataViewController.m */,
+				CD0FE94E15640CF90005606A /* ModelController.h */,
+				CD0FE94F15640CF90005606A /* ModelController.m */,
+				CD0FE95115640CF90005606A /* MainStoryboard.storyboard */,
+				CD0FE93D15640CF90005606A /* Supporting Files */,
+			);
+			path = wijzer;
+			sourceTree = "<group>";
+		};
+		CD0FE93D15640CF90005606A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FE93E15640CF90005606A /* wijzer-Info.plist */,
+				CD0FE93F15640CF90005606A /* InfoPlist.strings */,
+				CD0FE94215640CF90005606A /* main.m */,
+				CD0FE94415640CF90005606A /* wijzer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0FE93115640CF90005606A /* wijzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0FE95615640CF90005606A /* Build configuration list for PBXNativeTarget "wijzer" */;
+			buildPhases = (
+				CD0FE92E15640CF90005606A /* Sources */,
+				CD0FE92F15640CF90005606A /* Frameworks */,
+				CD0FE93015640CF90005606A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wijzer;
+			productName = wijzer;
+			productReference = CD0FE93215640CF90005606A /* wijzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0FE92915640CF90005606A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CD0FE92C15640CF90005606A /* Build configuration list for PBXProject "wijzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD0FE92715640CF90005606A;
+			productRefGroup = CD0FE93315640CF90005606A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0FE93115640CF90005606A /* wijzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0FE93015640CF90005606A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0FE94115640CF90005606A /* InfoPlist.strings in Resources */,
+				CD0FE95315640CF90005606A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0FE92E15640CF90005606A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0FE94315640CF90005606A /* main.m in Sources */,
+				CD0FE94715640CF90005606A /* AppDelegate.m in Sources */,
+				CD0FE94A15640CF90005606A /* RootViewController.m in Sources */,
+				CD0FE94D15640CF90005606A /* DataViewController.m in Sources */,
+				CD0FE95015640CF90005606A /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD0FE93F15640CF90005606A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0FE94015640CF90005606A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD0FE95115640CF90005606A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0FE95215640CF90005606A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0FE95415640CF90005606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD0FE95515640CF90005606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0FE95715640CF90005606A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wijzer/wijzer-Prefix.pch";
+				INFOPLIST_FILE = "wijzer/wijzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD0FE95815640CF90005606A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wijzer/wijzer-Prefix.pch";
+				INFOPLIST_FILE = "wijzer/wijzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0FE92C15640CF90005606A /* Build configuration list for PBXProject "wijzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0FE95415640CF90005606A /* Debug */,
+				CD0FE95515640CF90005606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0FE95615640CF90005606A /* Build configuration list for PBXNativeTarget "wijzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0FE95715640CF90005606A /* Debug */,
+				CD0FE95815640CF90005606A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0FE92915640CF90005606A /* Project object */;
+}
